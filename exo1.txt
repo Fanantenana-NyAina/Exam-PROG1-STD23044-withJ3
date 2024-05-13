@@ -1,0 +1,7 @@
+2 - Dans notre cas pour utiliser la fonction "helloWord()" de test.js
+dans autre.js, on va utiliser ES Modules.
+Primo, on va exporter la fontion de test.js par un "export" : 
+    exemple : export function helloWord(....) {....}; 
+puis, on va l'importer dans l'autre fichier qui est "autre.js" en y faisons un "import"
+    exemple : import {helloWord} from ./test.js; 
+Et apres, on a qu'a l'appelle pour l'utiliser.
